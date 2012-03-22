@@ -1,0 +1,58 @@
+/*
+   cooleyassociates.com main stylesheet
+   All Rights Reserved - 2012 (c) Samuel S Cooley Associates AB
+*/
+body {
+	margin:30;
+	font:14px bold Arial, Helvetica, sans-serif;
+}
+a {
+	text-decoration:none;
+	color: #233e7a;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+.slide-content {
+	width:100%;
+	max-width:640px;
+	/* color:#fff; */
+}
+.slide-content p {margin:0;}
+.slide-content img {display:block;}
+.slide-content-c {
+	border:1px solid #e4e4e4;
+	padding:13px 15px;
+	/* background:#fff; */
+}
+.slide-content-b {
+	overflow:hidden;
+	text-indent:-9999px;
+	height:22px;
+	background:url('/images/bg-slide-box-b.png') no-repeat;
+}
+.slide-content-center {
+	/* background:#f1f1f1; */
+	padding:1px;
+	position:relative;
+	width:640px;
+}
+
+#slider, slider li {
+    width:480px;
+	overflow:hidden; 
+}
+#slider img{
+    border:none;
+}
+#slider ul, #slider li{
+    position:relative;
+    margin:0;
+    padding:0;
+    list-style:none;
+	display:block;
+}
+/*
+   END cooleyassociates.com main stylesheet
+*/

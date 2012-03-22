@@ -1,139 +1,102 @@
 <html>
-    <head>
-        <title>Cooley Associates</title>
+  <head>
+    <title>Cooley Associates</title>
 
-<script type="Text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="/SudoSlider/js/jquery.sudoSlider.min.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="Cooley, consulting, management, board, advisory, technology, finance, treasury, asset management" />
+    <meta name="description" content="Cooley Associates - Management consulting and advisory across technolog and finance" />
+    <meta name="generator" content="Samuel S. Cooley" />
 
-<style>
-body {
-	margin:30;
-	font:14px bold Arial, Helvetica, sans-serif;
-}
-a {
-	text-decoration:none;
-	color: #233e7a;
-}
-a:hover {
-	text-decoration:underline;
-}
+    <link rel="stylesheet" type="text/css" href="http://www.cooleyassociates.com/style/cooleyassociates.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" />
+    <script type="text/javascript" src="http://www.cooleyassociates.com/SudoSlider/js/jquery.sudoSlider.min.js" />
 
-.slide-content {
-	width:100%;
-	max-width:640px;
-	/* color:#fff; */
-}
-.slide-content p {margin:0;}
-.slide-content img {display:block;}
-.slide-content-c {
-	border:1px solid #e4e4e4;
-	padding:13px 15px;
-	/* background:#fff; */
-}
-.slide-content-b {
-	overflow:hidden;
-	text-indent:-9999px;
-	height:22px;
-	background:url('/images/bg-slide-box-b.png') no-repeat;
-}
-.slide-content-center {
-	/* background:#f1f1f1; */
-	padding:1px;
-	position:relative;
-	width:640px;
-}
+    <script type="text/javascript">
+      $(document).ready(function(){    
+        $("#slider").sudoSlider({ 
+            prevNext:          false,
+            prevHtml:          '<a href="#" class="prevBtn"> previous </a>',
+            nextHtml:          '<a href="#" class="nextBtn"> next </a>',
+            controlsShow:      false,
+            controlsAttr:      'id="controls"',
+            controlsFadeSpeed: '400',
+            controlsFade:      true,
+            insertAfter:       true,
+            firstShow:         false,
+            firstHtml:         '<a href="#" class="firstBtn"> first </a>',
+            lastShow:          false,
+            lastHtml:          '<a href="#" class="lastBtn"> last </a>',
+            numericAttr:       'class="controls"',
+            numericText:       ['1'],
+            vertical:          false,
+            speed:             '800',
+            ease:              'swing',
+            auto:              true,
+            pause:             '3000',
+            continuous:        true,
+            clickableAni:      false,
+            numeric:           false,
+            updateBefore:      false,
+            history:           false,
+            speedhistory:      '400',
+            autoheight:        true,
+            autowidth:         true,
+            customLink:        false,
+            fade:              true,
+            crossFade:         false,
+            fadespeed:         '1000',
+            ajax:              false,
+            loadingText:       false,
+            preloadAjax:       false,
+            startSlide:        false,
+            ajaxLoadFunction:  false,
+            beforeAniFunc:     false,
+            afterAniFunc:      false,
+            uncurrentFunc:     false,
+            currentFunc:       false,
+            slideCount:        1,
+            moveCount:         1
+        });
+      });
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-30247257-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+  </head>
 
-#slider, slider li {
-    width:480px;
-	overflow:hidden; 
-}
-#slider img{
-    border:none;
-}
-#slider ul, #slider li{
-    position:relative;
-    margin:0;
-    padding:0;
-    list-style:none;
-	display:block;
-}
-</style>
-<script>
-$(document).ready(function(){    
-    $("#slider").sudoSlider({ 
-        prevNext:          false,
-        prevHtml:          '<a href="#" class="prevBtn"> previous </a>',
-        nextHtml:          '<a href="#" class="nextBtn"> next </a>',
-        controlsShow:      false,
-        controlsAttr:      'id="controls"',
-        controlsFadeSpeed: '400',
-        controlsFade:      true,
-        insertAfter:       true,
-        firstShow:         false,
-        firstHtml:         '<a href="#" class="firstBtn"> first </a>',
-        lastShow:          false,
-        lastHtml:          '<a href="#" class="lastBtn"> last </a>',
-        numericAttr:       'class="controls"',
-        numericText:       ['1'],
-        vertical:          false,
-        speed:             '800',
-        ease:              'swing',
-        auto:              true,
-        pause:             '3000',
-        continuous:        true,
-        clickableAni:      false,
-        numeric:           false,
-        updateBefore:      false,
-        history:           false,
-        speedhistory:      '400',
-        autoheight:        true,
-        autowidth:         true,
-        customLink:        false,
-        fade:              true,
-        crossFade:         false,
-        fadespeed:         '1000',
-        ajax:              false,
-        loadingText:       false,
-        preloadAjax:       false,
-        startSlide:        false,
-        ajaxLoadFunction:  false,
-        beforeAniFunc:     false,
-        afterAniFunc:      false,
-        uncurrentFunc:     false,
-        currentFunc:       false,
-        slideCount:        1,
-        moveCount:         1
-    });
-});
-</script>
-    </head>
+  <body>
+    <p><img src="/CooleyAssociates_logo.png" alt="Cooley Associates logo" /><br /></p>
+    <p>
 
-    <body>
-        <p><img src="/CooleyAssociates_logo.png" alt="Cooley Associates logo" /><br /></p>
-	<p>
-
-<div class="slide-content">
+      <div class="slide-content">
 	<div class="slide-content-c">
-		<div class="slide-content-center" id="slideshow">
-			<!-- div class="preload"/div -->
+	  <div class="slide-content-center" id="slideshow">
+	    <!-- div class="preload"/div -->
 
-		<div id="slider" style="text-align:center; font-face:Arial, Helvetica, sans-serif; font-size:24; font-weight:bold;" >
-		    <ul>
-		        <li><span>Management and advisory consulting</span></li>
-		        <li><span>recruiting, matchmaking and sales</span></li>
-		        <li><span>across technology and finance</span></li>
-		        <li><span>Simple. Positive. Value. Everywhere.</span></li>
-		    </ul>
-		</div>
-	        <div style="margin:5; padding:5;" >With global experience and range, we work with you on common sense ideas and solutions.</div>
- 		<div style="align:center; margin:5; padding:5;"><a href="mailto:sam.cooley at cooleyassociates.com">CONTACT</a> | <a href="http://www.linkedin.com/in/samcooley">PROFILE</a></div>
-
-			</div>
-		</div>
+	    <div id="slider" style="text-align:center; font-face:Arial, Helvetica, sans-serif; font-size:24; font-weight:bold;" >
+	      <ul>
+	        <li><span>Management and advisory consulting</span></li>
+	        <li><span>recruiting, matchmaking and sales</span></li>
+	        <li><span>across technology and finance</span></li>
+	        <li><span>Simple. Positive. Value. Everywhere.</span></li>
+	      </ul>
+	    </div>
+	    <div style="margin:5; padding:5;" >With global experience and range, we work with you on common sense ideas and solutions.</div>
+ 	    <div style="align:center; margin:5; padding:5;"><a href="mailto:sam.cooley at cooleyassociates.com">CONTACT</a> | <a href="http://www.linkedin.com/in/samcooley">PROFILE</a></div>
+	  </div>
 	</div>
 	<div class="slide-content-b">&nbsp;</div>
-</div>
+      </div>
 
-	</p>
-    </body>
+    </p>
+  </body>
 </html>
