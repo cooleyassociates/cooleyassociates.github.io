@@ -1,111 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  
   <head>
-    <title>Cooley Associates</title>
-
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,300'
+    rel='stylesheet' type='text/css'>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>
+      Cooley Associates - Technical strategy and project management.
+    </title>
     <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Cooley, consulting, management, board, advisory, technology, finance, treasury, asset management" />
     <meta name="description" content="Cooley Associates - Management consulting and advisory across technology and finance" />
     <meta name="author" content="Samuel S. Cooley" />
 
-    <link rel="stylesheet" type="text/css" href="http://www.cooleyassociates.com/style/cooleyassociates.css" ></link>
     <link rel="icon" type="image/x-icon" href="http://www.cooleyassociates.com/CooleyAssociates_logo_icon.png" ></link>
     <link rel="shortcut icon" type="image/x-icon" href="http://www.cooleyassociates.com/CooleyAssociates_logo_icon.png" ></link>
     <link rel="apple-touch-icon" type="image/x-icon" href="http://www.cooleyassociates.com/CooleyAssociates_logo_icon.png" />
     <meta name="apple-web-app-capable" content="yes" />
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" ></script>
-    <script type="text/javascript" src="http://www.cooleyassociates.com/SudoSlider/js/jquery.sudoSlider.min.js" ></script>
 
-    <script type="text/javascript">
-      $(document).ready(function(){    
-        $("#slider").sudoSlider({ 
-            prevNext:          false,
-            prevHtml:          '<a href="#" class="prevBtn"> previous </a>',
-            nextHtml:          '<a href="#" class="nextBtn"> next </a>',
-            controlsShow:      false,
-            controlsAttr:      'id="controls"',
-            controlsFadeSpeed: '400',
-            controlsFade:      true,
-            insertAfter:       true,
-            firstShow:         false,
-            firstHtml:         '<a href="#" class="firstBtn"> first </a>',
-            lastShow:          false,
-            lastHtml:          '<a href="#" class="lastBtn"> last </a>',
-            numericAttr:       'class="controls"',
-            numericText:       ['1'],
-            vertical:          false,
-            speed:             '800',
-            ease:              'swing',
-            auto:              true,
-            pause:             '3000',
-            continuous:        true,
-            clickableAni:      false,
-            numeric:           false,
-            updateBefore:      false,
-            history:           false,
-            speedhistory:      '400',
-            autoheight:        true,
-            autowidth:         true,
-            customLink:        false,
-            fade:              true,
-            crossFade:         false,
-            fadespeed:         '1000',
-            ajax:              false,
-            loadingText:       false,
-            preloadAjax:       false,
-            startSlide:        false,
-            ajaxLoadFunction:  false,
-            beforeAniFunc:     false,
-            afterAniFunc:      false,
-            uncurrentFunc:     false,
-            currentFunc:       false,
-            slideCount:        1,
-            moveCount:         1
-        });
-      });
-
-/* breaking slider animation
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-30247257-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-ana
-lytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-*/
-    </script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+    rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"
+    rel="stylesheet">
+  
+    <link href="style/cooleyassociates.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <p>
-      <div><img alt="Samuel S. Cooley portrait" title="Samuel S. Cooley" src="http://cooleyassociates.com/images/Employees/1001/Samuel%20S%20Cooley%20headshot%20scaled.jpg" width="640" /></div>
-    </p>
-    <p>
-      <div class="slide-content">
-	<div class="slide-content-c">
-	  <div class="slide-content-center" id="slideshow">
-	    <!-- div class="preload"/div -->
-	    <div id="slider" style="font-face:Arial, Helvetica, sans-serif; font-size:24; font-weight:bold;">
-	      <ul>
-	        <li><span>Management and advisory consulting</span></li>
-	        <li><span>Simple. Positive. Value. Everywhere.</span></li>
-	      </ul>
-	    </div>
-	    <div style="margin:5; padding:5;" >With global experience and range, we work with you on common sense solutions.</div>
- 	    <div style="margin:5; padding:5; height:75">
-		<a href="mailto:sam.cooley at cooleyassociates.com">CONTACT</a> | 
-                <a href="http://www.linkedin.com/in/samcooley">PROFILE</a>
-                <a href="http://www.cooleyassociates.com"><img align="right" width="150" src="/CooleyAssociates_logo.png" alt="Cooley Associates logo" /></a><br /></div>
-	  </div>
-	</div>
-	<div class="slide-content-b">&nbsp;</div>
+    <div id="billboard" class="container">
+      <img src="http://www.cooleyassociates.com/images/Employees/1001/Samuel-S-Cooley.jpg"
+      class="pull-left">
+      <div class="page-header">
+        <h1>
+          Cooley Associates
+        </h1>
       </div>
-
-    </p>
+      <div id="tagline">
+        Technical strategy and project management.
+      </div>
+      <div id="homepagelinks">
+        <a href="http://www.linkedin.com/in/samcooley">PROFILE</a>
+        <br />
+        <a href="mailto:sam.cooley at cooleyassociates.com?subject=Cooley%20Associates%20inquiry">CONTACT</a>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+    >
+    </script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
+    >
+    </script>
   </body>
+
 </html>

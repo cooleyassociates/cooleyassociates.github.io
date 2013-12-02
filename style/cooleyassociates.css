@@ -1,57 +1,45 @@
 /*
    cooleyassociates.com main stylesheet
-   All Rights Reserved - 2012 (c) Samuel S Cooley Associates AB
+   All Rights Reserved - 2013 (c) Samuel S Cooley Associates AB
 */
 body {
-	margin:30;
-	font:14px bold Arial, Helvetica, sans-serif;
-}
-a {
-	text-decoration:none;
-	color: #233e7a;
-}
-a:hover {
-	text-decoration:underline;
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color:#182735;
 }
 
-.slide-content {
-	width:100%;
-	max-width:640px;
-	/* color:#fff; */
-}
-.slide-content p {margin:0;}
-.slide-content img {display:block;}
-.slide-content-c {
-	border:1px solid #e4e4e4;
-	padding:13px 15px;
-	/* background:#fff; */
-}
-.slide-content-b {
-	overflow:hidden;
-	text-indent:-9999px;
-	height:22px;
-	background:url('/images/bg-slide-box-b.png') no-repeat;
-}
-.slide-content-center {
-	/* background:#f1f1f1; */
-	padding:1px;
-	position:relative;
-	width:640px;
+img {
+  max-width:100%;
+  margin-bottom:20px;
 }
 
-#slider, slider li {
-    width:480px;
-	overflow:hidden; 
+title, h1 {
+  font-family:'Open Sans Condensed','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight:700;
+  font-size:2.4em;
+  margin:3.4em 0 0.6em 0;
+  }
+
+#billboard {
+  margin-top:30px;
 }
-#slider img{
-    border:none;
+
+.page-header {
+  border-bottom:none;
+  margin:60px 0 0 0;
 }
-#slider ul, #slider li{
-    position:relative;
-    margin:0;
-    padding:0;
-    list-style:none;
-	display:block;
+
+#tagline {
+  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight:300;
+  font-size:2.6em;
+  line-height:1.1em;
+}
+
+#homepagelinks {
+  margin:1.2em 0 0 0;
+  color:#4778b3;
+  line-height:1.6em;
+  letter-spacing:2px;
 }
 /*
    END cooleyassociates.com main stylesheet
