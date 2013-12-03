@@ -2,6 +2,11 @@
    cooleyassociates.com main stylesheet
    All Rights Reserved - 2013 (c) Samuel S Cooley Associates AB
 */
+
+@media(min-width:992px) and (max-width:1199px) {
+  img {padding:80px;}
+}
+
 body {
   font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   color:#182735;
@@ -41,6 +46,7 @@ title, h1 {
   line-height:1.6em;
   letter-spacing:2px;
 }
+
 /*
    END cooleyassociates.com main stylesheet
 */
